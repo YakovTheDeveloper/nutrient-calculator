@@ -1,0 +1,19 @@
+.container{
+	width: 100%;
+	max-width: 700px;
+	padding: 15px 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	overflow-wrap: break-word;
+}
+
+.text{
+	padding: 0px 3px;
+}
+.collectionItemName{
+	padding: 10px 2px;
+	display: flex;
+}

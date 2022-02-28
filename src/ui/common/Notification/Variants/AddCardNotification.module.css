@@ -1,0 +1,58 @@
+.danger{
+	background-color: rgb(255, 153, 0);
+	color: #fff;
+}
+
+.neutral{
+	background-color: lightblue;
+}
+
+.notify{
+	padding: 0px 5px;
+    position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 0;
+	font-family: monospace;
+    font-size: 1rem;
+}
+
+
+.notifyEnterActive {
+	animation: 0.7s opacityin ease-in-out;
+}
+
+.notifyExit {
+	opacity: 1;
+	animation: 2.2s slideout ease-in-out, 2.2s opacityout ease-in-out;
+}
+
+@keyframes slideout {
+    from {
+      transform: translateX(0);
+    }
+  
+    to {
+      transform: translateX(100px);
+    }
+  }
+
+  @keyframes opacityin {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes opacityout {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }

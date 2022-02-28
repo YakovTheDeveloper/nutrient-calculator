@@ -1,0 +1,35 @@
+.modal{
+	position: fixed;
+	/* top: 66px; */
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	height: 100vh;
+	width: 100vw;
+	z-index: 100;
+}
+.inner{
+	width: 70%;
+	/* height: 70%; */
+	padding: 30px;
+	margin: auto;
+	margin-top: 50px;
+	position: relative;
+	background-color: aliceblue;
+	/* z-index: 10; */
+}
+
+.closeBtn{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px;
+	background-color: chartreuse;
+	color: white;
+	border: none;
+
+}
+.closeBtn:hover{
+	opacity: 0.4;
+	cursor: pointer;
+}

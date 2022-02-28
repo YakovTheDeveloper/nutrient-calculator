@@ -1,0 +1,5 @@
+.nutrientGroups{
+	gap: 15px;
+	display: flex;
+	flex-wrap: wrap;
+}

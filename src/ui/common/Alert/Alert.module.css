@@ -1,0 +1,15 @@
+.alert{
+	padding: 5px;
+	max-width: fit-content;
+}
+
+.danger{
+	background-color: rgb(248, 164, 164);
+	color: white;
+}
+
+.primary{
+	background-color: rgb(178, 219, 252);
+	color: black;
+}
+

@@ -1,0 +1,13 @@
+.btn {
+	padding: 6px 0px;
+	font-family: monospace;
+	font-size: 15px;
+	min-width: 200px;
+	border-color: white;
+	background-color: #86bfda;
+	color: white;
+}
+
+.btn:active {
+	background-color: var(--orange);
+}

@@ -1,0 +1,36 @@
+.tooltip {
+	align-self: flex-start;
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted f1ffcf;
+}
+
+.tooltiptext {
+	min-width: 100%;
+	padding: 2px 0;
+	border-radius: 12px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+
+	visibility: hidden;
+	background-color: var(--brightGreen);
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+
+	opacity: 0.95;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translateY(-100%);
+	z-index: 1;
+}
+
+.deleteFromFavourites {
+	background-color: pink;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}

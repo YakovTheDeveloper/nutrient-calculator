@@ -1,0 +1,18 @@
+
+.collectionItem{
+	/* width: 640px; */
+	gap: 20px;
+	padding: 10px 20px;
+    font-size: 14px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    /* border-right: 1px solid greenyellow; */
+}
+
+.collectionItem ul{
+	/* border: 1px solid rgb(255, 158, 47); */
+	/* list-style: none; */
+}
+
+

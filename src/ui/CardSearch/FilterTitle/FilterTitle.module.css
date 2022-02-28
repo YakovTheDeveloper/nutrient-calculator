@@ -1,0 +1,20 @@
+.sortInfoTitle{
+	width: 100%;
+	padding: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+    font-weight: 400;
+    letter-spacing: 0px;
+    box-shadow: 0px 5px 5px 3px rgba(212, 212, 212, 0.5);
+	background-color: #f1ffcf;
+    font-size: 1.5rem;
+}
+.sortInfoTitleEmpty{
+	display: none;
+}
+
+.titleText{
+	
+}
