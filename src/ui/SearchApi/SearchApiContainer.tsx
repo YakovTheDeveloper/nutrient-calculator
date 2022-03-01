@@ -4,6 +4,10 @@ import { useFetchFoodByText } from "../../application/fetchFoodByText"
 import { validationSearchApiText } from "../../utils/textValidation/apiSearchTextValidation"
 import SearchApi from "./SearchApi"
 import { handleEnter } from "../../utils/keyDowns/handleEnter"
+import { useApiSearchFiltering } from "../../application/search/apiSearch/searchFiltering"
+import FilterPanel from "./FilterPanel/FilterPanel"
+import { useApiSearchStorage } from "../../services/storeAdapter/apiSearchStorage"
+
 
 const SearchApiContainer = () => {
 
@@ -15,7 +19,8 @@ const SearchApiContainer = () => {
 		type: "",
 		text: ""
 	})
-
+	const { getFilterWordsString, toggleCheckbox } = useApiSearchFiltering()
+	const { checkboxesState } = useApiSearchStorage()
 	const { fetchFoodByText } = useFetchFoodByText()
 
 
@@ -29,7 +34,7 @@ const SearchApiContainer = () => {
 				text: `${validationResultMessage}`
 			})
 			return
-			
+
 		} else {
 			setAlertMessage({
 				type: "",
@@ -41,26 +46,38 @@ const SearchApiContainer = () => {
 	}
 
 	useEffect(() => {
-		if (!url) return
+		console.log("getFilterWordsString", getFilterWordsString())
 
-		(async () => {
-			await fetchFoodByText(searchText).then((res: FoodItem[]) => {
-				res && setResult(res)
-				res.length === 0 && setResult(null)
-				setLoading(false)
-			})
-		})()
-		console.log("rerender @")
+	}, [checkboxesState])
+
+	useEffect(() => {
+		if (!url) return
+		else {
+
+			const filteredSearchText = searchText + getFilterWordsString();
+
+			(async () => {
+				await fetchFoodByText(filteredSearchText).then((res: FoodItem[]) => {
+					res && setResult(res)
+					res.length === 0 && setResult(null)
+					setLoading(false)
+				})
+			})()
+		}
 	}, [url])
 
-	return <SearchApi
-		loading={loading}
-		searchText={searchText}
-		setSearchText={setSearchText}
-		handleClick={handleClick}
-		alertMessage={alertMessage}
-		result={result}
-	/>
+	return (
+		<SearchApi
+			loading={loading}
+			searchText={searchText}
+			setSearchText={setSearchText}
+			handleClick={handleClick}
+			alertMessage={alertMessage}
+			result={result}
+		>
+			<FilterPanel />
+		</SearchApi>
+	)
 }
 
 export default SearchApiContainer

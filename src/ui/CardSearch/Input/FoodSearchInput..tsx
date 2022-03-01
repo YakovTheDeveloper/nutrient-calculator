@@ -11,8 +11,14 @@ type Props = {
 	value: string
 	changeHandler: (e: React.ChangeEvent<HTMLInputElement>) => void
 	clearSearchText: () => void
+	actionOnEnterKey?: (e: any) => void
 }
-const FoodSearchInput: FC<Props> = ({ value, changeHandler, clearSearchText }) => {
+const FoodSearchInput: FC<Props> = ({
+	value,
+	changeHandler,
+	clearSearchText,
+	actionOnEnterKey
+}) => {
 	return (
 		<div className={styles.container}>
 			<input
@@ -22,7 +28,11 @@ const FoodSearchInput: FC<Props> = ({ value, changeHandler, clearSearchText }) =
 				value={value}
 				autoFocus={true}
 				onKeyDown={
-					(e) => preventInputChars("textSearch", e)
+					(e) => {
+						preventInputChars("textSearch", e)
+						actionOnEnterKey &&
+							e.key === "Enter" && actionOnEnterKey(e)
+					}
 				}
 			/>
 			<div className={styles.buttonContainer}>

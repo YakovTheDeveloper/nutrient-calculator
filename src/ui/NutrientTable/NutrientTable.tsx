@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import styles from "./NutrientTable.module.css"
 import { useUpdateNutrientTable } from "../../application/updateNutrientTable"
 import { useAppSelector } from "../../hooks"
-import { useSetSearch } from "../../application/setSearchText"
+import { useSetSearch } from "../../application/search/setSearchText"
 import { CSSTransition } from "react-transition-group"
 import { defaultEmptyGroups } from "../../services/fetchFoodAdapter/processData/nutrientGroupsForUser"
 import NutrientGroups from "../NutrientGroups/NutrientGroups"
@@ -22,7 +22,10 @@ const NutrientTable = () => {
 	return (
 
 		<>
-			<button className={styles.toggleBtn} onClick={() => setToggleTable(prev => !prev)}>
+			<button
+				className={styles.toggleBtn}
+				onClick={() => setToggleTable(prev => !prev)}
+			>
 				{toggleTable ? "hide nutrients" : "show nutrients"}
 			</button>
 
@@ -36,17 +39,11 @@ const NutrientTable = () => {
 				unmountOnExit
 			>
 				<div className={styles.container}>
-
 					{
 						foodSet.length === 0
 							? <NutrientGroups nutrientGroups={defaultEmptyGroups} />
 							: <NutrientGroups nutrientGroups={nutrientTable} />
 					}
-
-
-
-					
-
 				</div>
 			</CSSTransition>
 		</>

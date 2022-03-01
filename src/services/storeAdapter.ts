@@ -9,7 +9,7 @@ import { Collection } from "../domain/collection/Collection"
 import { CollectionItem } from "../domain/collection/CollectionItem"
 import { useAppSelector, useAppDispatch } from "../hooks"
 import { addFood, changeFoodValue } from "../store/features/foodSetSlice"
-import { setText, setNutrientSelection } from "../store/features/searchSlice"
+import { setText, setNutrientSelection } from "../store/features/search/searchSlice"
 
 import { FoodItem } from "../domain/foodItem"
 import { SearchByNutrient } from "../domain/search/search"

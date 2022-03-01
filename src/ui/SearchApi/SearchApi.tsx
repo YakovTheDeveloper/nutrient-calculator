@@ -3,9 +3,11 @@ import styles from "./SearchApi.module.css"
 import FoundProduct from "./FoundProduct/FoundProduct"
 import Alert from "../common/Alert/Alert"
 import { doesProductIncludeSearchText } from "../../utils/doesProductIncludeSearchText"
+import FoodSearchInput from "../CardSearch/Input/FoodSearchInput."
 import { FoodItem } from "../../domain/foodItem"
 
 type Props = {
+	children: React.ReactChild
 	loading: boolean
 	searchText: string
 	setSearchText: React.Dispatch<React.SetStateAction<string>>
@@ -18,6 +20,7 @@ type Props = {
 }
 
 const SearchApi: FC<Props> = ({
+	children,
 	loading,
 	searchText,
 	setSearchText,
@@ -32,15 +35,24 @@ const SearchApi: FC<Props> = ({
 
 		<div>
 
+			<h3>
+				{
+					!result && "No results"
+				}
+			</h3>
 			{
 				!result && <div>No results</div>
 			}
-			<input
-				type="text"
-				onChange={(e) => setSearchText(e.target.value)}
-				onKeyDown={(e) => e.key === "Enter" && handleClick(e)}
+
+			{children}
+
+			<FoodSearchInput
+				changeHandler={(e) => setSearchText(e.target.value)}
+				clearSearchText={() => setSearchText("")}
 				value={searchText}
+				actionOnEnterKey={(e) => handleClick(e)}
 			/>
+
 			<button
 				type="button"
 				onClick={(e) =>

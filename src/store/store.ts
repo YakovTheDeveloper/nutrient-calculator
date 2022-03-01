@@ -4,7 +4,8 @@ import nutrientTableReducer from "./features/nutrientTableSlice"
 import collectionOfSetsReducer from "./features/collectionOfSetsSlice"
 import modalsSliceReducer from "./features/modal/modalsSlice"
 import  favouritesSliceReducer from "./features/favouritesSlice"
-import searchSliceReducer from "./features/searchSlice"
+import searchSliceReducer from "./features/search/searchSlice"
+import apiSearchSliceReducer from "./features/search/apiSearchSlice"
 
 export const store = configureStore({
 	reducer: {
@@ -13,6 +14,7 @@ export const store = configureStore({
 		collectionOfSets: collectionOfSetsReducer,
 
 		searchText: searchSliceReducer,
+		apiSearch: apiSearchSliceReducer,
 
 		modals: modalsSliceReducer,
 		favourites: favouritesSliceReducer,

@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit"
-import { SearchByNutrient } from "../../domain/search/search"
+import { SearchByNutrient } from "../../../domain/search/search"
 
 type searchState = {
 	text: string

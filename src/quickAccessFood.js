@@ -2990,6 +2990,1689 @@ export const quickAccessFood = [
 			}
 		},
 		"foodItemValue": 0
+	},
+	{
+		"foodItemName": "Oil, olive, extra light",
+		"foodItemId": 1750351,
+		"nutrientGroups": {
+			"mainNutrients": {
+				"Energy": {
+					"nutrientName": "Energy",
+					"value": 0,
+					"unitName": "kcal"
+				},
+				"Protein": {
+					"nutrientName": "Protein",
+					"value": 0,
+					"unitName": "g"
+				},
+				"Total lipid (fat)": {
+					"nutrientName": "Total lipid (fat)",
+					"value": 0,
+					"unitName": "g"
+				},
+				"Carbohydrate": {
+					"nutrientName": "Carbohydrate",
+					"value": 0,
+					"unitName": "g"
+				},
+				"Fiber": {
+					"nutrientName": "Fiber",
+					"value": 0,
+					"unitName": "g"
+				},
+				"Fatty acids, saturated": {
+					"nutrientName": "Fatty acids, saturated",
+					"value": 15.8,
+					"unitName": "g"
+				},
+				"Fatty acids, monounsaturated": {
+					"nutrientName": "Fatty acids, monounsaturated",
+					"value": 66.6,
+					"unitName": "g"
+				},
+				"Fatty acids, polyunsaturated": {
+					"nutrientName": "Fatty acids, polyunsaturated",
+					"value": 10.4,
+					"unitName": "g"
+				}
+			},
+			"minerals": {
+				"Calcium, Ca": {
+					"nutrientName": "Calcium, Ca",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Iron, Fe": {
+					"nutrientName": "Iron, Fe",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Magnesium, Mg": {
+					"nutrientName": "Magnesium, Mg",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Phosphorus, P": {
+					"nutrientName": "Phosphorus, P",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Potassium, K": {
+					"nutrientName": "Potassium, K",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Sodium, Na": {
+					"nutrientName": "Sodium, Na",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Zinc, Zn": {
+					"nutrientName": "Zinc, Zn",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Copper, Cu": {
+					"nutrientName": "Copper, Cu",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Manganese, Mn": {
+					"nutrientName": "Manganese, Mn",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Selenium, Se": {
+					"nutrientName": "Selenium, Se",
+					"value": 0,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsB": {
+				"B1, Thiamin": {
+					"nutrientName": "B1, Thiamin",
+					"value": 0,
+					"unitName": "kcal"
+				},
+				"B2, Riboflavin": {
+					"nutrientName": "B2, Riboflavin",
+					"value": 0,
+					"unitName": "g"
+				},
+				"B3, Niacin": {
+					"nutrientName": "B3, Niacin",
+					"value": 0,
+					"unitName": "g"
+				},
+				"B4, Choline": {
+					"nutrientName": "B4, Choline",
+					"value": 0,
+					"unitName": "g"
+				},
+				"B5, Pantothenic acid": {
+					"nutrientName": "B5, Pantothenic acid",
+					"value": 0,
+					"unitName": "g"
+				},
+				"B6, Pyridoxine": {
+					"nutrientName": "B6, Pyridoxine",
+					"value": 0,
+					"unitName": "g"
+				},
+				"B9, Folate": {
+					"nutrientName": "B9, Folate",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"B12, Cobalamin": {
+					"nutrientName": "B12, Cobalamin",
+					"value": 0,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsACDEK": {
+				"Vitamin A": {
+					"nutrientName": "Vitamin A",
+					"value": 0,
+					"unitName": "iu"
+				},
+				"Vitamin C": {
+					"nutrientName": "Vitamin C",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Vitamin D (D2 + D3)": {
+					"nutrientName": "Vitamin D (D2 + D3)",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Vitamin E": {
+					"nutrientName": "Vitamin E",
+					"value": 20.9,
+					"unitName": "mg"
+				},
+				"Vitamin K": {
+					"nutrientName": "Vitamin K",
+					"value": 26,
+					"unitName": "ug"
+				}
+			},
+			"restNutrients": {
+				"Retinol": {
+					"nutrientName": "Retinol",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Carotene, beta": {
+					"nutrientName": "Carotene, beta",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Carotene, alpha": {
+					"nutrientName": "Carotene, alpha",
+					"value": 0,
+					"unitName": "ug"
+				}
+			}
+		},
+		"foodItemValue": 0
+	},
+	{
+		"foodItemName": "Butter, light",
+		"foodItemId": 1103825,
+		"nutrientGroups": {
+			"mainNutrients": {
+				"Energy": {
+					"nutrientName": "Energy",
+					"value": 499,
+					"unitName": "kcal"
+				},
+				"Protein": {
+					"nutrientName": "Protein",
+					"value": 3.3,
+					"unitName": "g"
+				},
+				"Total lipid (fat)": {
+					"nutrientName": "Total lipid (fat)",
+					"value": 55.1,
+					"unitName": "g"
+				},
+				"Carbohydrate": {
+					"nutrientName": "Carbohydrate",
+					"value": 0,
+					"unitName": "g"
+				},
+				"Fiber": {
+					"nutrientName": "Fiber",
+					"value": 0,
+					"unitName": "g"
+				},
+				"Fatty acids, saturated": {
+					"nutrientName": "Fatty acids, saturated",
+					"value": 34.3,
+					"unitName": "g"
+				},
+				"Fatty acids, monounsaturated": {
+					"nutrientName": "Fatty acids, monounsaturated",
+					"value": 15.9,
+					"unitName": "g"
+				},
+				"Fatty acids, polyunsaturated": {
+					"nutrientName": "Fatty acids, polyunsaturated",
+					"value": 2.05,
+					"unitName": "g"
+				}
+			},
+			"minerals": {
+				"Calcium, Ca": {
+					"nutrientName": "Calcium, Ca",
+					"value": 48,
+					"unitName": "mg"
+				},
+				"Iron, Fe": {
+					"nutrientName": "Iron, Fe",
+					"value": 1.09,
+					"unitName": "mg"
+				},
+				"Magnesium, Mg": {
+					"nutrientName": "Magnesium, Mg",
+					"value": 5,
+					"unitName": "mg"
+				},
+				"Phosphorus, P": {
+					"nutrientName": "Phosphorus, P",
+					"value": 34,
+					"unitName": "mg"
+				},
+				"Potassium, K": {
+					"nutrientName": "Potassium, K",
+					"value": 71,
+					"unitName": "mg"
+				},
+				"Sodium, Na": {
+					"nutrientName": "Sodium, Na",
+					"value": 450,
+					"unitName": "mg"
+				},
+				"Zinc, Zn": {
+					"nutrientName": "Zinc, Zn",
+					"value": 0.26,
+					"unitName": "mg"
+				},
+				"Copper, Cu": {
+					"nutrientName": "Copper, Cu",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Manganese, Mn": {
+					"nutrientName": "Manganese, Mn",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Selenium, Se": {
+					"nutrientName": "Selenium, Se",
+					"value": 1,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsB": {
+				"B1, Thiamin": {
+					"nutrientName": "B1, Thiamin",
+					"value": 0.01,
+					"unitName": "mg"
+				},
+				"B2, Riboflavin": {
+					"nutrientName": "B2, Riboflavin",
+					"value": 0.07,
+					"unitName": "mg"
+				},
+				"B3, Niacin": {
+					"nutrientName": "B3, Niacin",
+					"value": 0.02,
+					"unitName": "mg"
+				},
+				"B4, Choline": {
+					"nutrientName": "B4, Choline",
+					"value": 12.9,
+					"unitName": "mg"
+				},
+				"B5, Pantothenic acid": {
+					"nutrientName": "B5, Pantothenic acid",
+					"value": 0,
+					"unitName": "g"
+				},
+				"B6, Pyridoxine": {
+					"nutrientName": "B6, Pyridoxine",
+					"value": 0.01,
+					"unitName": "mg"
+				},
+				"B9, Folate": {
+					"nutrientName": "B9, Folate",
+					"value": 1,
+					"unitName": "ug"
+				},
+				"B12, Cobalamin": {
+					"nutrientName": "B12, Cobalamin",
+					"value": 0.13,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsACDEK": {
+				"Vitamin A": {
+					"nutrientName": "Vitamin A",
+					"value": 0,
+					"unitName": "iu"
+				},
+				"Vitamin C": {
+					"nutrientName": "Vitamin C",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Vitamin D (D2 + D3)": {
+					"nutrientName": "Vitamin D (D2 + D3)",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Vitamin E": {
+					"nutrientName": "Vitamin E",
+					"value": 1.58,
+					"unitName": "mg"
+				},
+				"Vitamin K": {
+					"nutrientName": "Vitamin K",
+					"value": 4.8,
+					"unitName": "ug"
+				}
+			},
+			"restNutrients": {
+				"Retinol": {
+					"nutrientName": "Retinol",
+					"value": 456,
+					"unitName": "ug"
+				},
+				"Carotene, beta": {
+					"nutrientName": "Carotene, beta",
+					"value": 107,
+					"unitName": "ug"
+				},
+				"Carotene, alpha": {
+					"nutrientName": "Carotene, alpha",
+					"value": 0,
+					"unitName": "ug"
+				}
+			}
+		},
+		"foodItemValue": 0
+	},
+	{
+		"foodItemName": "Bananas, raw",
+		"foodItemId": 173944,
+		"nutrientGroups": {
+			"mainNutrients": {
+				"Energy": {
+					"nutrientName": "Energy",
+					"value": 89,
+					"unitName": "kcal"
+				},
+				"Protein": {
+					"nutrientName": "Protein",
+					"value": 1.09,
+					"unitName": "g"
+				},
+				"Total lipid (fat)": {
+					"nutrientName": "Total lipid (fat)",
+					"value": 0.33,
+					"unitName": "g"
+				},
+				"Carbohydrate": {
+					"nutrientName": "Carbohydrate",
+					"value": 22.8,
+					"unitName": "g"
+				},
+				"Fiber": {
+					"nutrientName": "Fiber",
+					"value": 2.6,
+					"unitName": "g"
+				},
+				"Fatty acids, saturated": {
+					"nutrientName": "Fatty acids, saturated",
+					"value": 0.112,
+					"unitName": "g"
+				},
+				"Fatty acids, monounsaturated": {
+					"nutrientName": "Fatty acids, monounsaturated",
+					"value": 0.032,
+					"unitName": "g"
+				},
+				"Fatty acids, polyunsaturated": {
+					"nutrientName": "Fatty acids, polyunsaturated",
+					"value": 0.073,
+					"unitName": "g"
+				}
+			},
+			"minerals": {
+				"Calcium, Ca": {
+					"nutrientName": "Calcium, Ca",
+					"value": 5,
+					"unitName": "mg"
+				},
+				"Iron, Fe": {
+					"nutrientName": "Iron, Fe",
+					"value": 0.26,
+					"unitName": "mg"
+				},
+				"Magnesium, Mg": {
+					"nutrientName": "Magnesium, Mg",
+					"value": 27,
+					"unitName": "mg"
+				},
+				"Phosphorus, P": {
+					"nutrientName": "Phosphorus, P",
+					"value": 22,
+					"unitName": "mg"
+				},
+				"Potassium, K": {
+					"nutrientName": "Potassium, K",
+					"value": 358,
+					"unitName": "mg"
+				},
+				"Sodium, Na": {
+					"nutrientName": "Sodium, Na",
+					"value": 1,
+					"unitName": "mg"
+				},
+				"Zinc, Zn": {
+					"nutrientName": "Zinc, Zn",
+					"value": 0.15,
+					"unitName": "mg"
+				},
+				"Copper, Cu": {
+					"nutrientName": "Copper, Cu",
+					"value": 0.078,
+					"unitName": "mg"
+				},
+				"Manganese, Mn": {
+					"nutrientName": "Manganese, Mn",
+					"value": 0.27,
+					"unitName": "mg"
+				},
+				"Selenium, Se": {
+					"nutrientName": "Selenium, Se",
+					"value": 1,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsB": {
+				"B1, Thiamin": {
+					"nutrientName": "B1, Thiamin",
+					"value": 0.031,
+					"unitName": "mg"
+				},
+				"B2, Riboflavin": {
+					"nutrientName": "B2, Riboflavin",
+					"value": 0.073,
+					"unitName": "mg"
+				},
+				"B3, Niacin": {
+					"nutrientName": "B3, Niacin",
+					"value": 0.665,
+					"unitName": "mg"
+				},
+				"B4, Choline": {
+					"nutrientName": "B4, Choline",
+					"value": 9.8,
+					"unitName": "mg"
+				},
+				"B5, Pantothenic acid": {
+					"nutrientName": "B5, Pantothenic acid",
+					"value": 0.334,
+					"unitName": "mg"
+				},
+				"B6, Pyridoxine": {
+					"nutrientName": "B6, Pyridoxine",
+					"value": 0.367,
+					"unitName": "mg"
+				},
+				"B9, Folate": {
+					"nutrientName": "B9, Folate",
+					"value": 20,
+					"unitName": "ug"
+				},
+				"B12, Cobalamin": {
+					"nutrientName": "B12, Cobalamin",
+					"value": 0,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsACDEK": {
+				"Vitamin A": {
+					"nutrientName": "Vitamin A",
+					"value": 64,
+					"unitName": "iu"
+				},
+				"Vitamin C": {
+					"nutrientName": "Vitamin C",
+					"value": 8.7,
+					"unitName": "mg"
+				},
+				"Vitamin D (D2 + D3)": {
+					"nutrientName": "Vitamin D (D2 + D3)",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Vitamin E": {
+					"nutrientName": "Vitamin E",
+					"value": 0.1,
+					"unitName": "mg"
+				},
+				"Vitamin K": {
+					"nutrientName": "Vitamin K",
+					"value": 0.5,
+					"unitName": "ug"
+				}
+			},
+			"restNutrients": {
+				"Retinol": {
+					"nutrientName": "Retinol",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Carotene, beta": {
+					"nutrientName": "Carotene, beta",
+					"value": 26,
+					"unitName": "ug"
+				},
+				"Carotene, alpha": {
+					"nutrientName": "Carotene, alpha",
+					"value": 25,
+					"unitName": "ug"
+				}
+			}
+		},
+		"foodItemValue": 0
+	},
+	{
+		"foodItemName": "Apples, raw, without skin",
+		"foodItemId": 171689,
+		"nutrientGroups": {
+			"mainNutrients": {
+				"Energy": {
+					"nutrientName": "Energy",
+					"value": 48,
+					"unitName": "kcal"
+				},
+				"Protein": {
+					"nutrientName": "Protein",
+					"value": 0.27,
+					"unitName": "g"
+				},
+				"Total lipid (fat)": {
+					"nutrientName": "Total lipid (fat)",
+					"value": 0.13,
+					"unitName": "g"
+				},
+				"Carbohydrate": {
+					"nutrientName": "Carbohydrate",
+					"value": 12.8,
+					"unitName": "g"
+				},
+				"Fiber": {
+					"nutrientName": "Fiber",
+					"value": 1.3,
+					"unitName": "g"
+				},
+				"Fatty acids, saturated": {
+					"nutrientName": "Fatty acids, saturated",
+					"value": 0.021,
+					"unitName": "g"
+				},
+				"Fatty acids, monounsaturated": {
+					"nutrientName": "Fatty acids, monounsaturated",
+					"value": 0.005,
+					"unitName": "g"
+				},
+				"Fatty acids, polyunsaturated": {
+					"nutrientName": "Fatty acids, polyunsaturated",
+					"value": 0.037,
+					"unitName": "g"
+				}
+			},
+			"minerals": {
+				"Calcium, Ca": {
+					"nutrientName": "Calcium, Ca",
+					"value": 5,
+					"unitName": "mg"
+				},
+				"Iron, Fe": {
+					"nutrientName": "Iron, Fe",
+					"value": 0.07,
+					"unitName": "mg"
+				},
+				"Magnesium, Mg": {
+					"nutrientName": "Magnesium, Mg",
+					"value": 4,
+					"unitName": "mg"
+				},
+				"Phosphorus, P": {
+					"nutrientName": "Phosphorus, P",
+					"value": 11,
+					"unitName": "mg"
+				},
+				"Potassium, K": {
+					"nutrientName": "Potassium, K",
+					"value": 90,
+					"unitName": "mg"
+				},
+				"Sodium, Na": {
+					"nutrientName": "Sodium, Na",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Zinc, Zn": {
+					"nutrientName": "Zinc, Zn",
+					"value": 0.05,
+					"unitName": "mg"
+				},
+				"Copper, Cu": {
+					"nutrientName": "Copper, Cu",
+					"value": 0.031,
+					"unitName": "mg"
+				},
+				"Manganese, Mn": {
+					"nutrientName": "Manganese, Mn",
+					"value": 0.038,
+					"unitName": "mg"
+				},
+				"Selenium, Se": {
+					"nutrientName": "Selenium, Se",
+					"value": 0,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsB": {
+				"B1, Thiamin": {
+					"nutrientName": "B1, Thiamin",
+					"value": 0.019,
+					"unitName": "mg"
+				},
+				"B2, Riboflavin": {
+					"nutrientName": "B2, Riboflavin",
+					"value": 0.028,
+					"unitName": "mg"
+				},
+				"B3, Niacin": {
+					"nutrientName": "B3, Niacin",
+					"value": 0.091,
+					"unitName": "mg"
+				},
+				"B4, Choline": {
+					"nutrientName": "B4, Choline",
+					"value": 3.4,
+					"unitName": "mg"
+				},
+				"B5, Pantothenic acid": {
+					"nutrientName": "B5, Pantothenic acid",
+					"value": 0.071,
+					"unitName": "mg"
+				},
+				"B6, Pyridoxine": {
+					"nutrientName": "B6, Pyridoxine",
+					"value": 0.037,
+					"unitName": "mg"
+				},
+				"B9, Folate": {
+					"nutrientName": "B9, Folate",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"B12, Cobalamin": {
+					"nutrientName": "B12, Cobalamin",
+					"value": 0,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsACDEK": {
+				"Vitamin A": {
+					"nutrientName": "Vitamin A",
+					"value": 38,
+					"unitName": "iu"
+				},
+				"Vitamin C": {
+					"nutrientName": "Vitamin C",
+					"value": 4,
+					"unitName": "mg"
+				},
+				"Vitamin D (D2 + D3)": {
+					"nutrientName": "Vitamin D (D2 + D3)",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Vitamin E": {
+					"nutrientName": "Vitamin E",
+					"value": 0.05,
+					"unitName": "mg"
+				},
+				"Vitamin K": {
+					"nutrientName": "Vitamin K",
+					"value": 0.6,
+					"unitName": "ug"
+				}
+			},
+			"restNutrients": {
+				"Retinol": {
+					"nutrientName": "Retinol",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Carotene, beta": {
+					"nutrientName": "Carotene, beta",
+					"value": 17,
+					"unitName": "ug"
+				},
+				"Carotene, alpha": {
+					"nutrientName": "Carotene, alpha",
+					"value": 0,
+					"unitName": "ug"
+				}
+			}
+		},
+		"foodItemValue": 0
+	},
+	{
+		"foodItemName": "Chicken breast, baked or roasted",
+		"foodItemId": 1098445,
+		"nutrientGroups": {
+			"mainNutrients": {
+				"Energy": {
+					"nutrientName": "Energy",
+					"value": 161,
+					"unitName": "kcal"
+				},
+				"Protein": {
+					"nutrientName": "Protein",
+					"value": 30.2,
+					"unitName": "g"
+				},
+				"Total lipid (fat)": {
+					"nutrientName": "Total lipid (fat)",
+					"value": 3.52,
+					"unitName": "g"
+				},
+				"Carbohydrate": {
+					"nutrientName": "Carbohydrate",
+					"value": 0,
+					"unitName": "g"
+				},
+				"Fiber": {
+					"nutrientName": "Fiber",
+					"value": 0,
+					"unitName": "g"
+				},
+				"Fatty acids, saturated": {
+					"nutrientName": "Fatty acids, saturated",
+					"value": 0.756,
+					"unitName": "g"
+				},
+				"Fatty acids, monounsaturated": {
+					"nutrientName": "Fatty acids, monounsaturated",
+					"value": 0.926,
+					"unitName": "g"
+				},
+				"Fatty acids, polyunsaturated": {
+					"nutrientName": "Fatty acids, polyunsaturated",
+					"value": 0.57,
+					"unitName": "g"
+				}
+			},
+			"minerals": {
+				"Calcium, Ca": {
+					"nutrientName": "Calcium, Ca",
+					"value": 7,
+					"unitName": "mg"
+				},
+				"Iron, Fe": {
+					"nutrientName": "Iron, Fe",
+					"value": 0.45,
+					"unitName": "mg"
+				},
+				"Magnesium, Mg": {
+					"nutrientName": "Magnesium, Mg",
+					"value": 28,
+					"unitName": "mg"
+				},
+				"Phosphorus, P": {
+					"nutrientName": "Phosphorus, P",
+					"value": 229,
+					"unitName": "mg"
+				},
+				"Potassium, K": {
+					"nutrientName": "Potassium, K",
+					"value": 359,
+					"unitName": "mg"
+				},
+				"Sodium, Na": {
+					"nutrientName": "Sodium, Na",
+					"value": 360,
+					"unitName": "mg"
+				},
+				"Zinc, Zn": {
+					"nutrientName": "Zinc, Zn",
+					"value": 0.91,
+					"unitName": "mg"
+				},
+				"Copper, Cu": {
+					"nutrientName": "Copper, Cu",
+					"value": 0.047,
+					"unitName": "mg"
+				},
+				"Manganese, Mn": {
+					"nutrientName": "Manganese, Mn",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Selenium, Se": {
+					"nutrientName": "Selenium, Se",
+					"value": 30.6,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsB": {
+				"B1, Thiamin": {
+					"nutrientName": "B1, Thiamin",
+					"value": 0.088,
+					"unitName": "mg"
+				},
+				"B2, Riboflavin": {
+					"nutrientName": "B2, Riboflavin",
+					"value": 0.214,
+					"unitName": "mg"
+				},
+				"B3, Niacin": {
+					"nutrientName": "B3, Niacin",
+					"value": 10.3,
+					"unitName": "mg"
+				},
+				"B4, Choline": {
+					"nutrientName": "B4, Choline",
+					"value": 77.2,
+					"unitName": "mg"
+				},
+				"B5, Pantothenic acid": {
+					"nutrientName": "B5, Pantothenic acid",
+					"value": 0,
+					"unitName": "g"
+				},
+				"B6, Pyridoxine": {
+					"nutrientName": "B6, Pyridoxine",
+					"value": 0.872,
+					"unitName": "mg"
+				},
+				"B9, Folate": {
+					"nutrientName": "B9, Folate",
+					"value": 7,
+					"unitName": "ug"
+				},
+				"B12, Cobalamin": {
+					"nutrientName": "B12, Cobalamin",
+					"value": 0.18,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsACDEK": {
+				"Vitamin A": {
+					"nutrientName": "Vitamin A",
+					"value": 0,
+					"unitName": "iu"
+				},
+				"Vitamin C": {
+					"nutrientName": "Vitamin C",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Vitamin D (D2 + D3)": {
+					"nutrientName": "Vitamin D (D2 + D3)",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Vitamin E": {
+					"nutrientName": "Vitamin E",
+					"value": 0.75,
+					"unitName": "mg"
+				},
+				"Vitamin K": {
+					"nutrientName": "Vitamin K",
+					"value": 0,
+					"unitName": "ug"
+				}
+			},
+			"restNutrients": {
+				"Retinol": {
+					"nutrientName": "Retinol",
+					"value": 9,
+					"unitName": "ug"
+				},
+				"Carotene, beta": {
+					"nutrientName": "Carotene, beta",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Carotene, alpha": {
+					"nutrientName": "Carotene, alpha",
+					"value": 0,
+					"unitName": "ug"
+				}
+			}
+		},
+		"foodItemValue": 0
+	},
+	{
+		"foodItemName": "Strawberries, raw",
+		"foodItemId": 1102710,
+		"nutrientGroups": {
+			"mainNutrients": {
+				"Energy": {
+					"nutrientName": "Energy",
+					"value": 32,
+					"unitName": "kcal"
+				},
+				"Protein": {
+					"nutrientName": "Protein",
+					"value": 0.67,
+					"unitName": "g"
+				},
+				"Total lipid (fat)": {
+					"nutrientName": "Total lipid (fat)",
+					"value": 0.3,
+					"unitName": "g"
+				},
+				"Carbohydrate": {
+					"nutrientName": "Carbohydrate",
+					"value": 7.68,
+					"unitName": "g"
+				},
+				"Fiber": {
+					"nutrientName": "Fiber",
+					"value": 2,
+					"unitName": "g"
+				},
+				"Fatty acids, saturated": {
+					"nutrientName": "Fatty acids, saturated",
+					"value": 0.015,
+					"unitName": "g"
+				},
+				"Fatty acids, monounsaturated": {
+					"nutrientName": "Fatty acids, monounsaturated",
+					"value": 0.043,
+					"unitName": "g"
+				},
+				"Fatty acids, polyunsaturated": {
+					"nutrientName": "Fatty acids, polyunsaturated",
+					"value": 0.155,
+					"unitName": "g"
+				}
+			},
+			"minerals": {
+				"Calcium, Ca": {
+					"nutrientName": "Calcium, Ca",
+					"value": 16,
+					"unitName": "mg"
+				},
+				"Iron, Fe": {
+					"nutrientName": "Iron, Fe",
+					"value": 0.41,
+					"unitName": "mg"
+				},
+				"Magnesium, Mg": {
+					"nutrientName": "Magnesium, Mg",
+					"value": 13,
+					"unitName": "mg"
+				},
+				"Phosphorus, P": {
+					"nutrientName": "Phosphorus, P",
+					"value": 24,
+					"unitName": "mg"
+				},
+				"Potassium, K": {
+					"nutrientName": "Potassium, K",
+					"value": 153,
+					"unitName": "mg"
+				},
+				"Sodium, Na": {
+					"nutrientName": "Sodium, Na",
+					"value": 1,
+					"unitName": "mg"
+				},
+				"Zinc, Zn": {
+					"nutrientName": "Zinc, Zn",
+					"value": 0.14,
+					"unitName": "mg"
+				},
+				"Copper, Cu": {
+					"nutrientName": "Copper, Cu",
+					"value": 0.048,
+					"unitName": "mg"
+				},
+				"Manganese, Mn": {
+					"nutrientName": "Manganese, Mn",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Selenium, Se": {
+					"nutrientName": "Selenium, Se",
+					"value": 0.4,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsB": {
+				"B1, Thiamin": {
+					"nutrientName": "B1, Thiamin",
+					"value": 0.024,
+					"unitName": "mg"
+				},
+				"B2, Riboflavin": {
+					"nutrientName": "B2, Riboflavin",
+					"value": 0.022,
+					"unitName": "mg"
+				},
+				"B3, Niacin": {
+					"nutrientName": "B3, Niacin",
+					"value": 0.386,
+					"unitName": "mg"
+				},
+				"B4, Choline": {
+					"nutrientName": "B4, Choline",
+					"value": 5.7,
+					"unitName": "mg"
+				},
+				"B5, Pantothenic acid": {
+					"nutrientName": "B5, Pantothenic acid",
+					"value": 0,
+					"unitName": "g"
+				},
+				"B6, Pyridoxine": {
+					"nutrientName": "B6, Pyridoxine",
+					"value": 0.047,
+					"unitName": "mg"
+				},
+				"B9, Folate": {
+					"nutrientName": "B9, Folate",
+					"value": 24,
+					"unitName": "ug"
+				},
+				"B12, Cobalamin": {
+					"nutrientName": "B12, Cobalamin",
+					"value": 0,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsACDEK": {
+				"Vitamin A": {
+					"nutrientName": "Vitamin A",
+					"value": 0,
+					"unitName": "iu"
+				},
+				"Vitamin C": {
+					"nutrientName": "Vitamin C",
+					"value": 58.8,
+					"unitName": "mg"
+				},
+				"Vitamin D (D2 + D3)": {
+					"nutrientName": "Vitamin D (D2 + D3)",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Vitamin E": {
+					"nutrientName": "Vitamin E",
+					"value": 0.29,
+					"unitName": "mg"
+				},
+				"Vitamin K": {
+					"nutrientName": "Vitamin K",
+					"value": 2.2,
+					"unitName": "ug"
+				}
+			},
+			"restNutrients": {
+				"Retinol": {
+					"nutrientName": "Retinol",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Carotene, beta": {
+					"nutrientName": "Carotene, beta",
+					"value": 7,
+					"unitName": "ug"
+				},
+				"Carotene, alpha": {
+					"nutrientName": "Carotene, alpha",
+					"value": 0,
+					"unitName": "ug"
+				}
+			}
+		},
+		"foodItemValue": 0
+	},
+	{
+		"foodItemName": "Peach, raw",
+		"foodItemId": 1102677,
+		"nutrientGroups": {
+			"mainNutrients": {
+				"Energy": {
+					"nutrientName": "Energy",
+					"value": 42,
+					"unitName": "kcal"
+				},
+				"Protein": {
+					"nutrientName": "Protein",
+					"value": 0.91,
+					"unitName": "g"
+				},
+				"Total lipid (fat)": {
+					"nutrientName": "Total lipid (fat)",
+					"value": 0.27,
+					"unitName": "g"
+				},
+				"Carbohydrate": {
+					"nutrientName": "Carbohydrate",
+					"value": 10.1,
+					"unitName": "g"
+				},
+				"Fiber": {
+					"nutrientName": "Fiber",
+					"value": 1.5,
+					"unitName": "g"
+				},
+				"Fatty acids, saturated": {
+					"nutrientName": "Fatty acids, saturated",
+					"value": 0.019,
+					"unitName": "g"
+				},
+				"Fatty acids, monounsaturated": {
+					"nutrientName": "Fatty acids, monounsaturated",
+					"value": 0.067,
+					"unitName": "g"
+				},
+				"Fatty acids, polyunsaturated": {
+					"nutrientName": "Fatty acids, polyunsaturated",
+					"value": 0.086,
+					"unitName": "g"
+				}
+			},
+			"minerals": {
+				"Calcium, Ca": {
+					"nutrientName": "Calcium, Ca",
+					"value": 4,
+					"unitName": "mg"
+				},
+				"Iron, Fe": {
+					"nutrientName": "Iron, Fe",
+					"value": 0.34,
+					"unitName": "mg"
+				},
+				"Magnesium, Mg": {
+					"nutrientName": "Magnesium, Mg",
+					"value": 8,
+					"unitName": "mg"
+				},
+				"Phosphorus, P": {
+					"nutrientName": "Phosphorus, P",
+					"value": 22,
+					"unitName": "mg"
+				},
+				"Potassium, K": {
+					"nutrientName": "Potassium, K",
+					"value": 122,
+					"unitName": "mg"
+				},
+				"Sodium, Na": {
+					"nutrientName": "Sodium, Na",
+					"value": 13,
+					"unitName": "mg"
+				},
+				"Zinc, Zn": {
+					"nutrientName": "Zinc, Zn",
+					"value": 0.23,
+					"unitName": "mg"
+				},
+				"Copper, Cu": {
+					"nutrientName": "Copper, Cu",
+					"value": 0.078,
+					"unitName": "mg"
+				},
+				"Manganese, Mn": {
+					"nutrientName": "Manganese, Mn",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Selenium, Se": {
+					"nutrientName": "Selenium, Se",
+					"value": 2.1,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsB": {
+				"B1, Thiamin": {
+					"nutrientName": "B1, Thiamin",
+					"value": 0.024,
+					"unitName": "mg"
+				},
+				"B2, Riboflavin": {
+					"nutrientName": "B2, Riboflavin",
+					"value": 0.031,
+					"unitName": "mg"
+				},
+				"B3, Niacin": {
+					"nutrientName": "B3, Niacin",
+					"value": 0.806,
+					"unitName": "mg"
+				},
+				"B4, Choline": {
+					"nutrientName": "B4, Choline",
+					"value": 6.1,
+					"unitName": "mg"
+				},
+				"B5, Pantothenic acid": {
+					"nutrientName": "B5, Pantothenic acid",
+					"value": 0,
+					"unitName": "g"
+				},
+				"B6, Pyridoxine": {
+					"nutrientName": "B6, Pyridoxine",
+					"value": 0.025,
+					"unitName": "mg"
+				},
+				"B9, Folate": {
+					"nutrientName": "B9, Folate",
+					"value": 6,
+					"unitName": "ug"
+				},
+				"B12, Cobalamin": {
+					"nutrientName": "B12, Cobalamin",
+					"value": 0,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsACDEK": {
+				"Vitamin A": {
+					"nutrientName": "Vitamin A",
+					"value": 0,
+					"unitName": "iu"
+				},
+				"Vitamin C": {
+					"nutrientName": "Vitamin C",
+					"value": 4.1,
+					"unitName": "mg"
+				},
+				"Vitamin D (D2 + D3)": {
+					"nutrientName": "Vitamin D (D2 + D3)",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Vitamin E": {
+					"nutrientName": "Vitamin E",
+					"value": 0.73,
+					"unitName": "mg"
+				},
+				"Vitamin K": {
+					"nutrientName": "Vitamin K",
+					"value": 3,
+					"unitName": "ug"
+				}
+			},
+			"restNutrients": {
+				"Retinol": {
+					"nutrientName": "Retinol",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Carotene, beta": {
+					"nutrientName": "Carotene, beta",
+					"value": 224,
+					"unitName": "ug"
+				},
+				"Carotene, alpha": {
+					"nutrientName": "Carotene, alpha",
+					"value": 0,
+					"unitName": "ug"
+				}
+			}
+		},
+		"foodItemValue": 0
+	},
+	{
+		"foodItemName": "Quinoa, uncooked",
+		"foodItemId": 168874,
+		"nutrientGroups": {
+			"mainNutrients": {
+				"Energy": {
+					"nutrientName": "Energy",
+					"value": 368,
+					"unitName": "kcal"
+				},
+				"Protein": {
+					"nutrientName": "Protein",
+					"value": 14.1,
+					"unitName": "g"
+				},
+				"Total lipid (fat)": {
+					"nutrientName": "Total lipid (fat)",
+					"value": 6.07,
+					"unitName": "g"
+				},
+				"Carbohydrate": {
+					"nutrientName": "Carbohydrate",
+					"value": 64.2,
+					"unitName": "g"
+				},
+				"Fiber": {
+					"nutrientName": "Fiber",
+					"value": 7,
+					"unitName": "g"
+				},
+				"Fatty acids, saturated": {
+					"nutrientName": "Fatty acids, saturated",
+					"value": 0.706,
+					"unitName": "g"
+				},
+				"Fatty acids, monounsaturated": {
+					"nutrientName": "Fatty acids, monounsaturated",
+					"value": 1.61,
+					"unitName": "g"
+				},
+				"Fatty acids, polyunsaturated": {
+					"nutrientName": "Fatty acids, polyunsaturated",
+					"value": 3.29,
+					"unitName": "g"
+				}
+			},
+			"minerals": {
+				"Calcium, Ca": {
+					"nutrientName": "Calcium, Ca",
+					"value": 47,
+					"unitName": "mg"
+				},
+				"Iron, Fe": {
+					"nutrientName": "Iron, Fe",
+					"value": 4.57,
+					"unitName": "mg"
+				},
+				"Magnesium, Mg": {
+					"nutrientName": "Magnesium, Mg",
+					"value": 197,
+					"unitName": "mg"
+				},
+				"Phosphorus, P": {
+					"nutrientName": "Phosphorus, P",
+					"value": 457,
+					"unitName": "mg"
+				},
+				"Potassium, K": {
+					"nutrientName": "Potassium, K",
+					"value": 563,
+					"unitName": "mg"
+				},
+				"Sodium, Na": {
+					"nutrientName": "Sodium, Na",
+					"value": 5,
+					"unitName": "mg"
+				},
+				"Zinc, Zn": {
+					"nutrientName": "Zinc, Zn",
+					"value": 3.1,
+					"unitName": "mg"
+				},
+				"Copper, Cu": {
+					"nutrientName": "Copper, Cu",
+					"value": 0.59,
+					"unitName": "mg"
+				},
+				"Manganese, Mn": {
+					"nutrientName": "Manganese, Mn",
+					"value": 2.03,
+					"unitName": "mg"
+				},
+				"Selenium, Se": {
+					"nutrientName": "Selenium, Se",
+					"value": 8.5,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsB": {
+				"B1, Thiamin": {
+					"nutrientName": "B1, Thiamin",
+					"value": 0.36,
+					"unitName": "mg"
+				},
+				"B2, Riboflavin": {
+					"nutrientName": "B2, Riboflavin",
+					"value": 0.318,
+					"unitName": "mg"
+				},
+				"B3, Niacin": {
+					"nutrientName": "B3, Niacin",
+					"value": 1.52,
+					"unitName": "mg"
+				},
+				"B4, Choline": {
+					"nutrientName": "B4, Choline",
+					"value": 70.2,
+					"unitName": "mg"
+				},
+				"B5, Pantothenic acid": {
+					"nutrientName": "B5, Pantothenic acid",
+					"value": 0.772,
+					"unitName": "mg"
+				},
+				"B6, Pyridoxine": {
+					"nutrientName": "B6, Pyridoxine",
+					"value": 0.487,
+					"unitName": "mg"
+				},
+				"B9, Folate": {
+					"nutrientName": "B9, Folate",
+					"value": 184,
+					"unitName": "ug"
+				},
+				"B12, Cobalamin": {
+					"nutrientName": "B12, Cobalamin",
+					"value": 0,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsACDEK": {
+				"Vitamin A": {
+					"nutrientName": "Vitamin A",
+					"value": 14,
+					"unitName": "iu"
+				},
+				"Vitamin C": {
+					"nutrientName": "Vitamin C",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Vitamin D (D2 + D3)": {
+					"nutrientName": "Vitamin D (D2 + D3)",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Vitamin E": {
+					"nutrientName": "Vitamin E",
+					"value": 2.44,
+					"unitName": "mg"
+				},
+				"Vitamin K": {
+					"nutrientName": "Vitamin K",
+					"value": 1.1,
+					"unitName": "ug"
+				}
+			},
+			"restNutrients": {
+				"Retinol": {
+					"nutrientName": "Retinol",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Carotene, beta": {
+					"nutrientName": "Carotene, beta",
+					"value": 8,
+					"unitName": "ug"
+				},
+				"Carotene, alpha": {
+					"nutrientName": "Carotene, alpha",
+					"value": 0,
+					"unitName": "ug"
+				}
+			}
+		},
+		"foodItemValue": 0
+	},
+	{
+		"foodItemName": "Rice, white, long-grain, regular, raw, unenriched",
+		"foodItemId": 169756,
+		"nutrientGroups": {
+			"mainNutrients": {
+				"Energy": {
+					"nutrientName": "Energy",
+					"value": 365,
+					"unitName": "kcal"
+				},
+				"Protein": {
+					"nutrientName": "Protein",
+					"value": 7.13,
+					"unitName": "g"
+				},
+				"Total lipid (fat)": {
+					"nutrientName": "Total lipid (fat)",
+					"value": 0.66,
+					"unitName": "g"
+				},
+				"Carbohydrate": {
+					"nutrientName": "Carbohydrate",
+					"value": 80,
+					"unitName": "g"
+				},
+				"Fiber": {
+					"nutrientName": "Fiber",
+					"value": 1.3,
+					"unitName": "g"
+				},
+				"Fatty acids, saturated": {
+					"nutrientName": "Fatty acids, saturated",
+					"value": 0.18,
+					"unitName": "g"
+				},
+				"Fatty acids, monounsaturated": {
+					"nutrientName": "Fatty acids, monounsaturated",
+					"value": 0.206,
+					"unitName": "g"
+				},
+				"Fatty acids, polyunsaturated": {
+					"nutrientName": "Fatty acids, polyunsaturated",
+					"value": 0.177,
+					"unitName": "g"
+				}
+			},
+			"minerals": {
+				"Calcium, Ca": {
+					"nutrientName": "Calcium, Ca",
+					"value": 28,
+					"unitName": "mg"
+				},
+				"Iron, Fe": {
+					"nutrientName": "Iron, Fe",
+					"value": 0.8,
+					"unitName": "mg"
+				},
+				"Magnesium, Mg": {
+					"nutrientName": "Magnesium, Mg",
+					"value": 25,
+					"unitName": "mg"
+				},
+				"Phosphorus, P": {
+					"nutrientName": "Phosphorus, P",
+					"value": 115,
+					"unitName": "mg"
+				},
+				"Potassium, K": {
+					"nutrientName": "Potassium, K",
+					"value": 115,
+					"unitName": "mg"
+				},
+				"Sodium, Na": {
+					"nutrientName": "Sodium, Na",
+					"value": 5,
+					"unitName": "mg"
+				},
+				"Zinc, Zn": {
+					"nutrientName": "Zinc, Zn",
+					"value": 1.09,
+					"unitName": "mg"
+				},
+				"Copper, Cu": {
+					"nutrientName": "Copper, Cu",
+					"value": 0.22,
+					"unitName": "mg"
+				},
+				"Manganese, Mn": {
+					"nutrientName": "Manganese, Mn",
+					"value": 1.09,
+					"unitName": "mg"
+				},
+				"Selenium, Se": {
+					"nutrientName": "Selenium, Se",
+					"value": 15.1,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsB": {
+				"B1, Thiamin": {
+					"nutrientName": "B1, Thiamin",
+					"value": 0.07,
+					"unitName": "mg"
+				},
+				"B2, Riboflavin": {
+					"nutrientName": "B2, Riboflavin",
+					"value": 0.049,
+					"unitName": "mg"
+				},
+				"B3, Niacin": {
+					"nutrientName": "B3, Niacin",
+					"value": 1.6,
+					"unitName": "mg"
+				},
+				"B4, Choline": {
+					"nutrientName": "B4, Choline",
+					"value": 5.8,
+					"unitName": "mg"
+				},
+				"B5, Pantothenic acid": {
+					"nutrientName": "B5, Pantothenic acid",
+					"value": 1.01,
+					"unitName": "mg"
+				},
+				"B6, Pyridoxine": {
+					"nutrientName": "B6, Pyridoxine",
+					"value": 0.164,
+					"unitName": "mg"
+				},
+				"B9, Folate": {
+					"nutrientName": "B9, Folate",
+					"value": 8,
+					"unitName": "ug"
+				},
+				"B12, Cobalamin": {
+					"nutrientName": "B12, Cobalamin",
+					"value": 0,
+					"unitName": "ug"
+				}
+			},
+			"vitaminsACDEK": {
+				"Vitamin A": {
+					"nutrientName": "Vitamin A",
+					"value": 0,
+					"unitName": "iu"
+				},
+				"Vitamin C": {
+					"nutrientName": "Vitamin C",
+					"value": 0,
+					"unitName": "mg"
+				},
+				"Vitamin D (D2 + D3)": {
+					"nutrientName": "Vitamin D (D2 + D3)",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Vitamin E": {
+					"nutrientName": "Vitamin E",
+					"value": 0.11,
+					"unitName": "mg"
+				},
+				"Vitamin K": {
+					"nutrientName": "Vitamin K",
+					"value": 0.1,
+					"unitName": "ug"
+				}
+			},
+			"restNutrients": {
+				"Retinol": {
+					"nutrientName": "Retinol",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Carotene, beta": {
+					"nutrientName": "Carotene, beta",
+					"value": 0,
+					"unitName": "ug"
+				},
+				"Carotene, alpha": {
+					"nutrientName": "Carotene, alpha",
+					"value": 0,
+					"unitName": "ug"
+				}
+			}
+		},
+		"foodItemValue": 0
 	}
 
 

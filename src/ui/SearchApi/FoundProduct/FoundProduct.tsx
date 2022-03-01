@@ -40,6 +40,7 @@ const FoundProduct: FC<Props> = ({ product }) => {
 
 			<button onClick={(e) => {
 				console.log(product)
+				e.stopPropagation()
 				return null
 			}}>
 				SAVEtoCONSOLE

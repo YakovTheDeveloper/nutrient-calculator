@@ -1,6 +1,6 @@
-import { useSearchTextStorage } from "../services/storeAdapter"
-import { SearchStorageService } from "./ports"
-import { SearchByNutrient } from "../domain/search/search"
+import { useSearchTextStorage } from "../../services/storeAdapter"
+import { SearchStorageService } from "../ports"
+import { SearchByNutrient } from "../../domain/search/search"
 
 export function useSetSearch() {
 
