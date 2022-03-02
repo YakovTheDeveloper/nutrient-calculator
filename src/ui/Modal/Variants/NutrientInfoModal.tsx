@@ -15,7 +15,10 @@ const NutrientInfoModal: FC = () => {
 
 	if (isModalOpen && nutrientName)
 		return (
-			<Modal closeModal={closeNutrientInfoModal}>
+			<Modal
+				isModalOpen={isModalOpen}
+				closeModal={closeNutrientInfoModal}
+			>
 				<div>
 					{nutrientName}
 				</div>

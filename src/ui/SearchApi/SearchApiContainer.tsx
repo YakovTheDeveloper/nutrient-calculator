@@ -6,6 +6,8 @@ import SearchApi from "./SearchApi"
 import { handleEnter } from "../../utils/keyDowns/handleEnter"
 import { useApiSearchFiltering } from "../../application/search/apiSearch/searchFiltering"
 import FilterPanel from "./FilterPanel/FilterPanel"
+import ProductList from "../common/ProductList/ProductList"
+import FoundProduct from "./FoundProduct/FoundProduct"
 import { useApiSearchStorage } from "../../services/storeAdapter/apiSearchStorage"
 
 
@@ -74,9 +76,8 @@ const SearchApiContainer = () => {
 			handleClick={handleClick}
 			alertMessage={alertMessage}
 			result={result}
-		>
-			<FilterPanel />
-		</SearchApi>
+		/>
+
 	)
 }
 

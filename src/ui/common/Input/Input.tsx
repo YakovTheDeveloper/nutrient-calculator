@@ -11,7 +11,7 @@ type Props = {
 	value: string | number
 	autoFocus?: boolean
 	width? : string
-}
+} 
 
 const Input: FC<Props> = ({
 	type,
@@ -24,6 +24,7 @@ const Input: FC<Props> = ({
 
 	return (
 		<input
+			autoComplete=""
 			type={type === "textSearch" ? "text" : type}
 			value={value}
 			className={`${styles.input}`}

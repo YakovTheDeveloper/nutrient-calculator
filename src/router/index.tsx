@@ -9,13 +9,13 @@ import Support from "../pages/FoodSelection"
 import type { RouteObject } from "react-router-dom"
 
 
-export enum RouteNames {
-	FOOD_SELECTION = "/foodSelection",
-	SUPPORT = "/support",
-	SEARCH_API = "/searchApi",
-	FAVOURITES = "/favourites",
-	COLLECTION = "/collection"
-}
+// export enum RouteNames {
+// 	FOOD_SELECTION = "/foodSelection",
+// 	SUPPORT = "/support",
+// 	SEARCH_API = "/searchApi",
+// 	FAVOURITES = "/favourites",
+// 	COLLECTION = "/collection"
+// }
 
 // export const routes: RouteObject[] = [
 // 	{

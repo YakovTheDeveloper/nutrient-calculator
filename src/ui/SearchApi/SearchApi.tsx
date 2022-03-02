@@ -5,9 +5,12 @@ import Alert from "../common/Alert/Alert"
 import { doesProductIncludeSearchText } from "../../utils/doesProductIncludeSearchText"
 import FoodSearchInput from "../CardSearch/Input/FoodSearchInput."
 import { FoodItem } from "../../domain/foodItem"
+import ProductList from "../common/ProductList/ProductList"
+import LoadingContainer from "../common/Loading/LoadingContainer"
+import FilterPanel from "./FilterPanel/FilterPanel"
 
 type Props = {
-	children: React.ReactChild
+	children?: React.ReactChild
 	loading: boolean
 	searchText: string
 	setSearchText: React.Dispatch<React.SetStateAction<string>>
@@ -29,7 +32,7 @@ const SearchApi: FC<Props> = ({
 	result,
 }) => {
 
-	if (loading) return <div>Loading...</div>
+	// if (loading) return <div>Loading...</div>
 
 	return (
 
@@ -40,33 +43,45 @@ const SearchApi: FC<Props> = ({
 					!result && "No results"
 				}
 			</h3>
-			{
+			{/* {
 				!result && <div>No results</div>
-			}
+			} */}
 
-			{children}
+			<FilterPanel />
 
 			<FoodSearchInput
+				value={searchText}
 				changeHandler={(e) => setSearchText(e.target.value)}
 				clearSearchText={() => setSearchText("")}
-				value={searchText}
 				actionOnEnterKey={(e) => handleClick(e)}
+				hasSearchButton={true}
+				searchHandler={(e) => handleClick(e)}
 			/>
 
-			<button
-				type="button"
-				onClick={(e) =>
-					handleClick(e)
-				}
-			> Search
-			</button>
+
+
 
 			{
 				alertMessage.type &&
 				<Alert type={alertMessage.type} text={alertMessage.text} />
 			}
+			
+			<LoadingContainer loading={loading}>
+				<ProductList column={true}>
+					{
+						result?.map(product =>
+							<FoundProduct
+								key={product.foodItemId}
+								product={product}
+							/>)
+					}
+				</ProductList>
+			</LoadingContainer>
 
-			{
+
+
+
+			{/* {
 				result && result.map((product: FoodItem) => {
 					if (!doesProductIncludeSearchText(product.foodItemName, searchText)) return
 					return (
@@ -75,7 +90,7 @@ const SearchApi: FC<Props> = ({
 						</ul>
 					)
 				})
-			}
+			} */}
 
 		</div >
 	)

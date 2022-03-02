@@ -1,8 +1,4 @@
-import React, { FC } from "react"
-import RichNutrientBtn from "../Selection/RichNutrientsBtn/RichNutrientBtn"
-import { defaultEmptyGroups } from "../../../services/fetchFoodAdapter/processData/nutrientGroupsForUser"
-import { SearchByNutrient } from "../../../domain/search/search"
-import Input from "../../common/Input/Input"
+import React, { FC, useState } from "react"
 import { preventInputChars } from "../../../utils/preventDoingThings/preventInputChars"
 import CrossButton from "../../common/Button/CrossButton/CrossButton"
 import styles from "./FoodSearchInput.module.css"
@@ -12,32 +8,56 @@ type Props = {
 	changeHandler: (e: React.ChangeEvent<HTMLInputElement>) => void
 	clearSearchText: () => void
 	actionOnEnterKey?: (e: any) => void
+	hasSearchButton?: boolean
+	searchHandler?: (e?: any) => void
 }
 const FoodSearchInput: FC<Props> = ({
 	value,
 	changeHandler,
 	clearSearchText,
-	actionOnEnterKey
+	actionOnEnterKey,
+	hasSearchButton,
+	searchHandler
 }) => {
+	
+	const [hasFocus, setFocus] = useState(false)
+
+	const onKeyDownHandler = (e: React.KeyboardEvent<HTMLInputElement>) => {
+		preventInputChars("textSearch", e)
+		actionOnEnterKey &&
+			e.key === "Enter" && actionOnEnterKey(e)
+	}
 	return (
 		<div className={styles.container}>
-			<input
-				className={styles.input}
-				type="text"
-				onChange={changeHandler}
-				value={value}
-				autoFocus={true}
-				onKeyDown={
-					(e) => {
-						preventInputChars("textSearch", e)
-						actionOnEnterKey &&
-							e.key === "Enter" && actionOnEnterKey(e)
-					}
+			<div className={styles.inputContainer}>
+				<input
+					className={styles.input}
+					type="text"
+					onChange={changeHandler}
+					value={value}
+					autoFocus={true}
+					onFocus={() => setFocus(true)}
+					onBlur={() => setFocus(false)}
+					onKeyDown={onKeyDownHandler}
+				/>
+				{
+					value &&
+					<div className={styles.buttonContainer}>
+						<CrossButton onClick={clearSearchText} />
+					</div>
 				}
-			/>
-			<div className={styles.buttonContainer}>
-				<CrossButton onClick={clearSearchText} />
 			</div>
+
+			{
+				hasSearchButton &&
+				<button
+					className={`${styles.btn} ${hasFocus ? styles.btnFocused : ""}`}
+					type="button"
+					onClick={searchHandler}
+				> Search
+				</button>
+			}
+
 		</div>
 	)
 }

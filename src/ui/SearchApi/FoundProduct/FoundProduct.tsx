@@ -13,6 +13,7 @@ const FoundProduct: FC<Props> = ({ product }) => {
 	const [showInfo, setShowInfo] = useState(false)
 	const [fetchedPic, setFetchedPic] = useState<any>("")
 	const { addFoodItemToFoodSet } = useAddFoodItemToFoodSet()
+	const { openNutrientGroupsModal } = useNutrientGroupsModalInteractor()
 
 
 
@@ -27,8 +28,7 @@ const FoundProduct: FC<Props> = ({ product }) => {
 	}, [showInfo])
 
 	const clickHandler = () => {
-		// open modal
-		console.log("object")
+		openNutrientGroupsModal(product.nutrientGroups)
 	}
 
 	return (

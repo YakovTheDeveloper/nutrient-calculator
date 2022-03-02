@@ -16,12 +16,12 @@
 	justify-content: center;
 }
 .enterActive {
-	animation: 0.52s appear ease-in-out, 0.52s opacityin ease-in-out;
+	animation: 0.5s appear ease-in-out, 0.5s opacityin ease-in-out;
 }
 
 .exitActive {
 	opacity: 1;
-	animation: 0.52s dissappear ease-in-out, 0.52s opacityout ease-in-out;
+	animation: 0.5s dissappear ease-in-out, 0.5s opacityout ease-in-out;
 }
 
 @keyframes appear {

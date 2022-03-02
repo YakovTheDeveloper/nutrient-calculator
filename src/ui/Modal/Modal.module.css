@@ -33,3 +33,53 @@
 	opacity: 0.4;
 	cursor: pointer;
 }
+
+.enterActive {
+	animation: 0.52s appear ease-in-out, 0.52s opacityin ease-in-out;
+}
+
+.exitActive {
+	opacity: 1;
+	animation: 0.52s dissappear ease-in-out, 0.52s opacityout ease-in-out;
+}
+
+@keyframes appear {
+    from {
+      transform: translateX(-100px);
+
+    }
+  
+    to {
+		transform: translateX(0px);
+
+    }
+  }
+
+@keyframes dissappear {
+    from {
+		transform: translateX(0px);
+    }
+  
+    to {
+		transform: translateX(-100px);
+    }
+  }
+
+  @keyframes opacityin {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes opacityout {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
