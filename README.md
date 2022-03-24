@@ -1,7 +1,7 @@
 # Nutrient Calculator
 ### Technologies
 
-Language: **Typescript**;  
+Language: **Typescript**
 Library/Framework: **React**  
 State Management: **Redux Toolkit**  
 Querying: **Axios**  
